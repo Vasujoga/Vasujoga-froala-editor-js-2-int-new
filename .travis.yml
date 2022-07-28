@@ -23,7 +23,7 @@ script:
   - bash ./deploy.sh
 branches:
   only:
-    - master
+    - main
 env:
   global:
     secure: encrypted-github-token
